@@ -1,0 +1,151 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.navabar{
+  height: 100px;
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(173, 173, 165);
+
+}
+
+.logo{
+  font-size: 25px;
+  width: auto;
+  display: flex;
+  margin: auto 100px;
+  color: blue;
+}
+
+.search{
+  position: relative;
+  top: 0px;
+  left: -40px;
+  color: black;
+  background-color: rgba(240, 248, 255, 0.258);
+  border: 0px;
+}
+
+.inputser{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto 130px;
+}
+
+.logo input{
+  font-size: 20px;
+  height: 35px;
+  width: 350px;
+  border-radius: 5px;
+  
+}
+
+.logo a{
+  width:70px;
+  background-color: gold;
+  font-size: 25px;
+  margin: auto 30px;
+  display: flex;
+  padding: auto 60px;
+  justify-content: space-between;
+  text-decoration: none;
+  color: black;
+}
+
+.loading{
+  display: flex;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  margin: 200px auto;
+  color: blue;
+}
+.h1{
+  /* //displaying all movies// */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:10px auto;
+  font-size: 35px;
+  color: crimson;
+
+}
+.disp{
+  display: grid;
+  grid-template-columns: 650px 600px ;
+  margin: 50px 200px;
+  row-gap: 80px;
+  
+}
+
+.disp img{
+  height: 150px;
+  width: 150px;
+}
+
+.disp button  :active{
+  transform: scale(1.5);
+  color: red;
+  background-color: rgba(255, 0, 0, 0.354);
+}
+
+.disp h1{
+  margin: 10px auto;
+  color: black;
+  text-decoration: none;
+}
+
+
+.like{
+  background-color: rgba(240, 248, 255, 0.594);
+  height: 40px;
+  width: 40px;
+  color: red;
+  margin: 10px;
+  justify-content: space-between;
+
+}
+
+.fulldetailes{
+  display: grid;
+  grid-template-columns: 900px;
+  margin: 50px 100px;
+  align-items: center;
+  row-gap: 20px;
+  justify-content: start;
+}
+
+.fulldetailes img{
+  margin: 30px auto;
+  height: 500px;
+  width: 500px;
+}
+
+.fulldetailes iframe{
+  margin: 30px auto;
+  height: 500px;
+  width: 800px;
+}
+
+.notfoundpage{
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:200px auto;
+  scale: .5;
+}
+
+
+
+
+
+
